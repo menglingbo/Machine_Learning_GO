@@ -116,7 +116,7 @@ class TreeId3:
                 numberLeafs += 1
         return numberLeafs
 
-    '''递归获取叶子节点的深度'''
+    '''递归获取决策树的深度'''
     def getTreeDepth(tree):
         depth = 0
         firstKey = list(tree.keys())[0]
